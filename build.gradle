@@ -1,0 +1,15 @@
+apply plugin: 'com.axelor.app-module'
+
+axelor {
+    title = "Dosilink :: jobs"
+}
+
+dependencies {
+    api project(":modules:axelor-project")
+    api project(":modules:axelor-exception")
+    api project(":modules:axelor-message")
+    api project(":modules:axelor-human-resource")
+    api project(":modules:axelor-studio")
+    api project(":modules:axelor-base")
+    implementation("com.github.javafaker:javafaker:1.0.2")
+}
