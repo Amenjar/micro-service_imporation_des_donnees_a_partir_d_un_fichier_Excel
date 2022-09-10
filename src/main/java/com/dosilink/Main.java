@@ -5,7 +5,7 @@ import com.dosilink.datasource.*;
 public class Main {
   public void executeMain(String sourceFile) {
     try {
-    /*  System.out.println("******************clientStructure sheet*****************");
+      System.out.println("******************clientStructure sheet*****************");
       ClientStructureXLS clientStructure = new ClientStructureXLS(sourceFile);
       clientStructure.saveStructureClientSheet();
       System.out.println("********************Training sheet**********************");
@@ -22,7 +22,7 @@ public class Main {
       protectionEquipmentXLS.saveProtectionEquipment();
       System.out.println("*******************RadiationWorker sheet****************");
       RadiationWorkerXLS radiationWorker = new RadiationWorkerXLS(sourceFile);
-      radiationWorker.saveRadiationWorkerSheet();*/
+      radiationWorker.saveRadiationWorkerSheet();
       System.out.println("*******************GeneratorRX sheet****************");
       XRayGeneratorXLS xRayGeneratorXLS = new XRayGeneratorXLS(sourceFile);
       xRayGeneratorXLS.saveGeneratorSheet();
